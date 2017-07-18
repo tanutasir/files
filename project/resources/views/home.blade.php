@@ -8,7 +8,10 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    <input id="fileupload" type="file" name="files[]" data-url="upload" multiple>
+                    <div id="progress">
+                        <div class="bar" style="width: 0%;"></div>
+                    </div>
                 </div>
             </div>
         </div>
